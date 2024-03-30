@@ -23,7 +23,7 @@ namespace Diplomado_EstructuraCapas.Presentacion
             List<EstudianteEntity> ListaEstudiantes;
             EstudianteEntity ObjectEstudiante = new();
 
-            //Menu **
+            //** Menu **
             Console.WriteLine("-- MENU --");
             Console.WriteLine("1. Insert");
             Console.WriteLine("2. Update");

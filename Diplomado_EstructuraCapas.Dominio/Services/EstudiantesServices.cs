@@ -9,9 +9,11 @@ namespace Diplomado_EstructuraCapas.Dominio.Services
     public class EstudiantesServices
     {
         private EstudianteAccesoDatos _estudianteAccesoDatos;
-        public EstudiantesServices()
+        private readonly IEstudiantesRepositorio _estudiantesRepositorio;
+        public EstudiantesServices(IEstudiantesRepositorio estudiantesRepositorio)
         {
             _estudianteAccesoDatos = new EstudianteAccesoDatos();
+            _estudiantesRepositorio = estudiantesRepositorio;
         }
 
         /// <summary>
@@ -21,8 +23,7 @@ namespace Diplomado_EstructuraCapas.Dominio.Services
         public List<EstudianteEntity> ObtenerEstudiantes() 
         {
             //Voy a la capa de infraestructura
-            DataTable data = _estudianteAccesoDatos.CrudEstudiantes((int)OperacionEnum.Consult_All, new EstudianteEntity());
-            List<EstudianteEntity>  listaEstudianteEntities = ParsearDataTableHelper.ConvertDataTableToList<EstudianteEntity>(data);
+            List<EstudianteEntity> listaEstudianteEntities = _estudiantesRepositorio.ListarEstudiantes();
             return listaEstudianteEntities;
         }
 

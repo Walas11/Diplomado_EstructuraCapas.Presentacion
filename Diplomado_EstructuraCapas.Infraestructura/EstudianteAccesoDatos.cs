@@ -7,7 +7,7 @@ namespace Diplomado_EstructuraCapas.Infraestructura
     public class EstudianteAccesoDatos
     {
         private readonly Conexion _conexion;
-        private SqlDataReader _reader;
+        private SqlDataReader ?_reader;
         private SqlCommand _command;
         private DataTable _tabla;
 

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplomado_EstructuraCapas.Presentacion", "Diplomado_EstructuraCapas.Presentacion\Diplomado_EstructuraCapas.Presentacion.csproj", "{667D9FB8-CE44-4714-8581-1AB2607FC778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diplomado_EstructuraCapas.Presentacion", "Diplomado_EstructuraCapas.Presentacion\Diplomado_EstructuraCapas.Presentacion.csproj", "{667D9FB8-CE44-4714-8581-1AB2607FC778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplomado_EstructuraCapas.Infraestructura", "Diplomado_EstructuraCapas.Infraestructura\Diplomado_EstructuraCapas.Infraestructura.csproj", "{2B61A829-D9A9-4560-A34E-A811BFA012B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diplomado_EstructuraCapas.Infraestructura", "Diplomado_EstructuraCapas.Infraestructura\Diplomado_EstructuraCapas.Infraestructura.csproj", "{2B61A829-D9A9-4560-A34E-A811BFA012B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplomado_EstructuraCapas.Dominio", "Diplomado_EstructuraCapas.Dominio\Diplomado_EstructuraCapas.Dominio.csproj", "{E1573AA7-C11B-4CB9-A938-7E94448F8854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diplomado_EstructuraCapas.Dominio", "Diplomado_EstructuraCapas.Dominio\Diplomado_EstructuraCapas.Dominio.csproj", "{E1573AA7-C11B-4CB9-A938-7E94448F8854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio_EstructuraCapas.Comunes", "Dominio_EstructuraCapas.Comunes\Dominio_EstructuraCapas.Comunes.csproj", "{2E1B9BB3-9633-42DF-B7A1-0B84C0FC30D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio_EstructuraCapas.Comunes", "Dominio_EstructuraCapas.Comunes\Dominio_EstructuraCapas.Comunes.csproj", "{2E1B9BB3-9633-42DF-B7A1-0B84C0FC30D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diplomado.WebAPI.V6", "Diplomado.WebAPI.V6\Diplomado.WebAPI.V6.csproj", "{3A5BC636-0A90-47A4-96C5-3CA44573E1C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2E1B9BB3-9633-42DF-B7A1-0B84C0FC30D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1B9BB3-9633-42DF-B7A1-0B84C0FC30D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1B9BB3-9633-42DF-B7A1-0B84C0FC30D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5BC636-0A90-47A4-96C5-3CA44573E1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5BC636-0A90-47A4-96C5-3CA44573E1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5BC636-0A90-47A4-96C5-3CA44573E1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5BC636-0A90-47A4-96C5-3CA44573E1C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
